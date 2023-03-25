@@ -1,0 +1,23 @@
+body
+ {
+    background-image: url(./aboutbackground.jpg);
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+.poema {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
