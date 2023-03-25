@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia;
+}
+body {
+    color: rgb(211, 47, 74);
+    font-size: larger;
+    background-image: url(./images/spacebackground.jpg);
+}
+
+.nav {
+}
+
+.nav-items {
+  color: white;
+  font-size: 3em;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  transition: opacity 400ms ease;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.nav:hover {
+  opacity: 0.3;
+  transition: opacity 400ms ease;
+}
+
+.nav-items:hover > .nav-items{
+  opacity: 0.3;
+}
+
+.nav-items:hover > .nav-items:hover{
+  opacity: 1;
+}
+
+
+.inicio, .about, .pics, .bonnie{
+  flex: 1;
+}
+
+.inicio {
+}
+
+.about {
+}
+
+.pics {
+}
+
+.bonnie {
+}
+
+.main {
+  width: 100vw;
+  height: 84vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foto {
+  display: flex;
+  width: 75%;
+  height: 75%; 
+  padding-left: 15%;
+}
+
+.cosas {
+  display: flex;
+  flex-direction: column;
+  font-size:x-large;
+  padding-right: 15%;
+}
+
+.quien {
+  height: 25vh;
+}
+
+.info {
+  height: 25vh;
+}
